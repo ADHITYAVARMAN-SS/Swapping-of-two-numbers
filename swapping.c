@@ -2,7 +2,13 @@
 
 int main()
 {
-  int a=100,b=200;
+  int a,b;
+  
+  printf("a=");
+  scanf("%d",&a);
+  
+  printf("b=");
+  scanf("%d",&b);
   
   printf("before swapping a=%d b=%d",a,b);
   
